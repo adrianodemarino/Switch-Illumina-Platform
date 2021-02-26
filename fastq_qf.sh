@@ -31,7 +31,7 @@ usage()
 	echo "  [-b R2.fastq.gz]   -   Input File: R2 FASTQ."
 	echo "  [-o output dir]    -   Output Directory"
 	echo "  [-t max threads]   -   Maximum Number of Parallel Threads"
-	echo "  [-m method]        -   Quality Filter on R1 only (lam) or R1 and R2 (slim)"
+	echo "  [-m method]        -   Quality Filter on R1 or R1 and R2"
 	echo "  [-f q_filter]      -   Quality Filter on R1 in phred scale (default 28)"
 	echo
 	exit 
